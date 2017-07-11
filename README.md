@@ -1,3 +1,8 @@
+#### Delete last commit 
+```shell
+git reset HEAD~ 
+````
+
 #### Go one step back in history
 ```shell
 git checkout @~1
