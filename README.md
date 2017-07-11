@@ -120,6 +120,12 @@ git push origin :<name>
 git reset --hard
 ```
 
+#### Discard Untracked files
+```shell
+git clean -n (to show what will be deleted)
+git clean -f
+```
+
 #### Cherry-pick a commit
 ```shell
 git cherry-pick -n <sha>
