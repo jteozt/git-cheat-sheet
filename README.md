@@ -1,7 +1,3 @@
-#### Delete last commit 
-```shell
-git reset HEAD~ 
-````
 
 #### Go one step back in history
 ```shell
@@ -108,6 +104,11 @@ git apply diff_file
 ```shell
 git push origin <name>
 ```
+
+#### Delete last commit 
+```shell
+git reset HEAD~ 
+````
 
 #### Delete remote branch
 ```shell
