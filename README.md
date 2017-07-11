@@ -115,6 +115,11 @@ git reset HEAD~
 git push origin :<name>
 ```
 
+#### Discard Uncommitted changes
+```shell
+git reset --hard
+```
+
 #### Cherry-pick a commit
 ```shell
 git cherry-pick -n <sha>
