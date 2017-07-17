@@ -126,6 +126,21 @@ git clean -n (to show what will be deleted)
 git clean -f
 ```
 
+#### Stash changes
+```shell
+git stash save 'name'
+```
+
+#### Stash List
+```shell
+git stash list
+```
+
+#### Stash Pop
+```shell
+git stash pop <stash id>
+```
+
 #### Cherry-pick a commit
 ```shell
 git cherry-pick -n <sha>
