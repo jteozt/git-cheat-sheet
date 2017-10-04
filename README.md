@@ -44,6 +44,14 @@ git checkout -b <name>
 git push origin <remote-name>
 ```
 
+#### Merge two commits
+```shell
+git rebase --interactive HEAD~2
+
+pick   b76d157 b <older>
+squash a931ac7 c <latest>
+```
+
 #### Merge two branches
 ```shell
 git checkout <target>
