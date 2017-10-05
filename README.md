@@ -62,6 +62,7 @@ squash a931ac7 c <latest>
 ```shell
 git checkout <target>
 git merge <source>
+git merge --no-ff <source>
 ```
 
 #### Merge two branches with squash
