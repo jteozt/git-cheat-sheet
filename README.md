@@ -4,9 +4,15 @@
 git checkout @~1
 ```
 
+#### Tag a commit
+```shell
+git tag <name> <commit id> 
+```
+
 #### Show commit changes
 ```shell
 git show <commit-sha>
+git show <tag name> 
 ```
 
 #### Push master branch to origin
