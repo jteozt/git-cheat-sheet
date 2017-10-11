@@ -142,7 +142,12 @@ git reset --hard
 #### Discard Untracked files
 ```shell
 git clean -n (to show what will be deleted)
-git clean -f
+
+git clean -fdx
+-f - force
+-d - directories too
+-x - remove ignored files too ( don't use this if you don't want to remove ignored files)
+
 ```
 
 #### Stash changes
