@@ -1,3 +1,16 @@
+#### Check for changes on remote origin
+```shell
+Check anything new or changed in repo
+git whatchanged origin/master -n 1
+
+reports how many commits behind my local is. (if Any)
+git remote update
+git status
+
+bring my local up to date
+git pull origin master
+```
+
 #### Detached Head 
 ```shell
 https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
