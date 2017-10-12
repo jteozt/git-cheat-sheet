@@ -1,3 +1,7 @@
+#### Detached Head 
+```shell
+https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
+```
 
 #### Go one step back in history
 ```shell
