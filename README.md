@@ -1,5 +1,5 @@
 #### Check for changes on remote origin
-
+```shell
 fetch from remote, reports how many commits behind my local is. (if Any)
 git remote update
 git status
