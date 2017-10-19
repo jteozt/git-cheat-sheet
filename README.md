@@ -1,9 +1,6 @@
 #### Check for changes on remote origin
-```shell
-Check anything new or changed in repo
-git whatchanged origin/master -n 1
 
-reports how many commits behind my local is. (if Any)
+fetch from remote, reports how many commits behind my local is. (if Any)
 git remote update
 git status
 
@@ -36,7 +33,7 @@ git checkout master
 
 You can then delete the temporary branch:
 
-git branch -d temp
+git branch -D temp
 
 https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
 ```
