@@ -278,6 +278,7 @@ git config --global alias.ds "diff --stat"
 git config --global alias.dsc "diff --stat --cached"
 git config --global alias.fpr '!sh -c "git fetch origin pull/$@/head:$@-pr"'
 git config --global alias.l "log"
+git config --global alias.lp "log --pretty=oneline"
 git config --global alias.lf "log --follow"
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all"
 git config --global alias.m "merge"
