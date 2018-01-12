@@ -62,6 +62,7 @@ git push origin master
 #### List all branches
 ```shell
 git branch -a
+git branch -av
 ```
 
 #### List remote branches
