@@ -199,6 +199,7 @@ git clean -fdx
 #### Stash changes
 ```shell
 git stash save 'name'
+git stash save -u        // to stash untracked files without staging them.
 ```
 
 #### Stash List
