@@ -167,11 +167,17 @@ git push origin <name>
 #### Delete last commit 
 ```shell
 git reset HEAD~ 
+git reset --hard HEAD^
 ````
 
 #### Delete remote branch
 ```shell
 git push origin :<name>
+```
+
+#### Uncommit Commit
+```shell
+git reset HEAD^
 ```
 
 #### Discard Uncommitted changes
