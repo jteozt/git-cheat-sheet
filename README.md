@@ -138,6 +138,11 @@ git daemon --base-path /home/git --verbose
 git remote add origin <url>
 ```
 
+#### Tracking information between local branch and origin:
+```shell
+git branch --set-upstream-to=origin/master <local target branch>
+```
+
 #### Fix 'branch not tracking anything'
 ```shell
 git config --add branch.master.remote origin
