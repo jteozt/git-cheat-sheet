@@ -125,7 +125,7 @@ https://help.github.com/articles/ignoring-files
 
 #### pull changes from the server + rebase (equivalent of git stash save && git pull && git stash pop && git push) + push
 ```shell
-git pull --rebase && git push
+git pull --rebase origin master && git push
 ```
 
 #### Set up git inet server
